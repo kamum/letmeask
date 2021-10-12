@@ -1,3 +1,43 @@
+<h1 align="center">
+  <img alt="LetmeAsk" title="LetmeAsk" src=".github/images/logoLetmeAsk.png" width="220px" />
+</h1>
+
+<p align="center">
+  <a href="#-tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>
+</p>
+
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="LetmeAsk" src=".github/images/letmeAsk.png" width="100%">
+</p>
+
+## 🚀 Tecnologies
+
+This project was developed with the following technologies:
+
+- HTML
+- CSS
+- TypeScript
+- Sass
+- React
+- Node
+- Firebase
+
+## 💻 Project
+
+
+LetmeAsk is a chat room created with the admin page and the user page, you can also login to the page using your google account, so it will be possible to have the option to create your own chat rooms.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

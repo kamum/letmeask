@@ -44,7 +44,7 @@ export function Room() {
                 name: user.name,
                 avatar: user.avatar,
             },
-            isHighLigthed: false,
+            isHighLighted: false,
             isAnswered: false
         };
         await database.ref(`rooms/${roomId}/questions`).push(question);
@@ -100,10 +100,13 @@ export function Room() {
                     {questions.map(question => {
                         return (
                             <Question
-                            key={question.id}
+                                key={question.id}
                                 content={question.content}
                                 author={question.author}
+                                isAnswered={question.isAnswered}
+                                isHighLighted={question.isHighLighted}
                             >
+                              {!question.isAnswered && (
                                 <button 
                                     className={`like-button ${question.likeId ? 'liked' : ''}`}
                                     type="button"
@@ -116,6 +119,7 @@ export function Room() {
                                     </svg>
 
                                 </button>
+                              )}
                             </Question>
                         )
                     })}
